@@ -1,0 +1,63 @@
+
+
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+body{
+background-color: rgb(16, 16, 16);
+color: rgb(219, 219, 219);
+}
+
+
+
+
+/*MENU*/
+header{
+    display: flex;
+    flex-wrap: wrap row;
+    justify-content: space-between;
+    padding: 2% 0 2% 0;
+    width: 100%;
+    margin:0%;
+    }
+    header #logo, a{
+    margin-right: 0 0 5% 32%; /*testa o ta bort*/
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 6px 32px 6px 32px;
+    }
+    a:hover{
+    color: blue ;
+    }
+
+  
+    
+    h1{
+        padding-left: 5%;
+    }
+
+
+
+
+img {
+    height: 15vw;
+}
+
+
+
+
+.conteiner { 
+    margin-left: 15%;
+    margin-top: 7%;
+
+
+}
+
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows:30rem 5fr 30rem;
+}
