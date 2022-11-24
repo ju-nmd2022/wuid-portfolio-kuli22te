@@ -57,3 +57,49 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:25rem 5fr 25rem;
 }
+
+
+.picture1 { animation: fadeIn 5s; }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+  .picture2 { animation: fadeIn 5s; }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .picture3 { animation: fadeIn 5s; }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+  .picture4 { animation: fadeIn 5s; }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .picture5 { animation: fadeIn 5s; }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+ 

@@ -61,3 +61,11 @@ img {
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows:30rem 5fr 30rem;
 }
+
+
+@media screen and (max-width: 360px){
+    .conteiner {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+}
