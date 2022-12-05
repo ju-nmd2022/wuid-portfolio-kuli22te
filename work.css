@@ -46,26 +46,26 @@ img {
 }
 
 
-
-
-.conteiner { 
-    margin-left: 15%;
-    margin-top: 7%;
-
-
-}
-
-
 .conteiner {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows:30rem 5fr 30rem;
-}
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-content: center;
+    gap: 50px;
+    max-width: 960px;
+    margin: auto;
+  }
 
-
-@media screen and (max-width: 360px){
+  @media(max-width: 1000px){
+  
     .conteiner {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-}
-}
+      grid-template-columns: repeat(auto-fit, 250px);
+      gap: 10px;
+      max-width: 815px;
+    }
+    .img {
+      max-height: 15vw;
+    }
+  
+  }
+
+
